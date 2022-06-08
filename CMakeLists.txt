@@ -26,4 +26,5 @@ if(WITH_testing MATCHES ON)
    enable_testing()
 endif(WITH_testing MATCHES ON)
 
+add_executable(fork_example fork_example.c)
 add_executable(sumserver server_main.c)
