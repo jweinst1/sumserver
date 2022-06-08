@@ -1,2 +1,3 @@
-# cmake-win-template
-Template Repo for CMake Projects on windows
+# SumServer
+
+A server that sums integers
