@@ -11,10 +11,10 @@ int main()
 {
     print_my_pid(); // one process is active
     fork();
-    print_my_pid(); // two processes are active
+    print_my_pid(); 
     fork();
-    print_my_pid(); // four processes are active
+    print_my_pid(); 
     fork();
-    print_my_pid(); // eight 
+    print_my_pid(); 
     return 0;
 }
